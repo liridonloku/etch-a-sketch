@@ -3,6 +3,7 @@
 
 body {
     margin: 0px;
+    background-color: #FCF6F5FF;
 }
 
 .header{
@@ -33,11 +34,25 @@ body {
     box-shadow: 0px 0px 3px white;
 }
 
+.main-view{
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     display: grid;
     height: calc(100vh - 132px);
-    grid-template-columns: repeat(16, fr1);
-    grid-template-rows: repeat(16, fr1);
+    width: calc(100vh - 132px);
+    min-height: 360px;
+    min-width: 360px;
+    max-height: 600px;
+    max-width: 600px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+#pixel {
+    border: 0.5px solid rgb(218, 217, 217);
 }
 
 .footer {
