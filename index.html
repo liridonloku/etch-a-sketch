@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="style.css">
         <meta type="description" content="A simple Etch-a-Sketch project">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <script src="script.js" defer></script>
     </head>
     <body>
@@ -12,8 +13,21 @@
                 <div>
                     <h1>Etch-a-Sketch!</h1>
                 </div>
-                <div>
-                    <button id="reset-button">Reset</button>
+                <div class="buttons">
+                    <div id="rainbow">
+                        <div>
+                            <label class="switch" aria-label="switch">
+                                <input type="checkbox" id="checkbox">
+                                <span class="slider round"></span>
+                             </label>
+                        </div>
+                        <div>
+                            <p>Rainbow</p>
+                        </div>
+                    </div>
+                    <div id="reset">
+                        <button id="reset-button" aria-label="reset button">Reset</button>
+                    </div>
                 </div>
             </div>
         </div>
