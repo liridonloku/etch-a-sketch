@@ -1,7 +1,10 @@
 /* #2BAE66FF  Island green   */
 /* #FCF6F5FF  Some white     */
 
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
 body {
+    font-family: 'Stylish', sans-serif;
     margin: 0px;
     background-color: #FCF6F5FF;
 }
@@ -35,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 22px;
 }
 #rainbow > div {
     height: 23px;
@@ -154,12 +157,13 @@ body {
     }
     #reset{
         margin-top: 5px;
-        margin-left: 15px;
-        margin-right: 4px;
+        margin-left: 20px;
+        margin-right: 0px;
         margin-bottom: 4px;
     }
     #rainbow{
         margin: 0;
+        margin-right: 4px;
     }
 }
 
